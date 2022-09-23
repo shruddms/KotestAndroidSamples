@@ -10,11 +10,13 @@ class LoginUtilUnitTest: FunSpec() {
 
     override fun beforeSpec(spec: Spec) {
         super.beforeSpec(spec)
+        println("beforeSpec")
         loginUtils = LoginUtils()
     }
 
     override fun beforeTest(testCase: TestCase) {
         super.beforeTest(testCase)
+        println("beforeTest")
     }
 
     init {
